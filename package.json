@@ -1,0 +1,27 @@
+{
+  "name": "moveshelf_upload_example",
+  "version": "0.0.1",
+  "description": "Basic example of using Moveshelf GraphQL API to upload motion data.",
+  "dependencies": {
+    "@types/yargs": "^11.0.0",
+    "apollo-cache-inmemory": "^1.1.12",
+    "apollo-client": "^2.2.8",
+    "apollo-link-context": "^1.0.7",
+    "apollo-link-http": "^1.5.3",
+    "axios": "^0.18.0",
+    "base64-js": "^1.2.3",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.8.0",
+    "node-fetch": "^2.1.2",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "author": "Moveshelf",
+  "license": "MIT"
+}
